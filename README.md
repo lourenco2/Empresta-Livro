@@ -16,7 +16,7 @@ Este projeto feito em JavaScript é um sistema de emprestimos para bibliotecas.
 
 ## Stack utilizada
 
-**Web:** JavaScript, Node.Js, React e Sql
+**Web:** JavaScript, Node.Js, React e MongoDB
 
 
 
