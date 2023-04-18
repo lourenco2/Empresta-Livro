@@ -1,5 +1,5 @@
 # Empresta Livro 📚
-## EL
+## Sigla: EL
 
 Projeto destinado a estudos de desenvolvimento web. 
 
