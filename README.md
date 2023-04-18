@@ -12,6 +12,7 @@ Este projeto feito em JavaScript é um sistema de emprestimos para bibliotecas.
 ## Autores
 
 - [@lourenco2](https://github.com/lourenco2)
+- [@AndreiReikdal](https://github.com/AndreiReikdal)
 
 
 ## Stack utilizada
