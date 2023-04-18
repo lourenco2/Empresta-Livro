@@ -1,4 +1,5 @@
-# (EL) Empresta Livro 📚
+# Empresta Livro 📚
+# EL
 
 Projeto destinado a estudos de desenvolvimento web. 
 
