@@ -10,7 +10,7 @@ const AlunoSchema = new Schema({
     },
     documento: {
         type: Number,
-        required: [true, "Documento é obrigatório"]
+        required: [true, "Documento é nescessario"]
     },
     telefone: {
         type: Number,
