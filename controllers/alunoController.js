@@ -1,4 +1,4 @@
-const alunoModel = require('../models/emprestimoModel');
+const alunoModel = require('../models/alunoModel');
 
 class AlunoController{
 
@@ -23,7 +23,7 @@ class AlunoController{
         aluno.codigo = objeto == null ? 1 : objeto.codigo + 1;
 
         //insert into aluno (xxx) values (xxxx);
-        const resultado = await alunooModel.create(aluno);
+        const resultado = await alunoModel.create(aluno);
         res.json(resultado);        
     }
 
