@@ -10,20 +10,16 @@ const AlunoSchema = new Schema({
     },
     documento: {
         type: Number,
-        required: [true, "Documento é nescessario"]
+        required: [true, "Documento é obrigatório"]
     },
     telefone: {
         type: Number,
         required: [true, "Contato obrigatório!"]
     },
-    endereço: {
+    endereco: {
         type: String,
         required: [true, "Endereço é obrigatório"]
-    },
-    dataCriacao:{
-        type: Date,
-        default: Date.now()
-    } 
+    }   
 });
 
 module.exports = mongoose.model('aluno', AlunoSchema);

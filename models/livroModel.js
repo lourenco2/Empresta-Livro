@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const LivroSchema = new Schema({
 
     codigo: Number,
-    Titulo: {
+    titulo: {
         type: String,
         required: [true, "Titulo é obrigatório!"]
     },
