@@ -52,3 +52,16 @@ Este projeto feito em JavaScript é um sistema de emprestimos para bibliotecas.
 
 
 - Comunidade
+
+
+## Dependencias
+
+# Frontend de exemplo
+
+- Baixar e executar o comando abaixo na pasta principal:
+
+npm install
+
+- Para rodar
+
+npm start
