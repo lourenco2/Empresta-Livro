@@ -64,11 +64,11 @@ async function carregar() {
     console.log('Disciplinas carregadas!');
     
     // NOSSO TESTE
-    // await EmprestimoModel.deleteMany({});
-    // for (const emprestimo of emprestimos) {
-    //     await EmprestimoModel.create(emprestimo);
-    // }
-    // console.log('Emprestimos Carregados!');
+    await EmprestimoModel.deleteMany({});
+    for (const emprestimo of emprestimos) {
+        await EmprestimoModel.create(emprestimo);
+    }
+    console.log('Emprestimos Carregados!');
 
 
     await CategoriaModel.deleteMany({});

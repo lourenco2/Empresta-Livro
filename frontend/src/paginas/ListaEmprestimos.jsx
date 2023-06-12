@@ -3,9 +3,13 @@ import axios from 'axios';
 
 function ListaEmprestimos() {
   const [emprestimos, setEmprestimos] = useState([]);
+  const [livros, setLivros] = useState([]);
+  const [alunos, setAlunos] = useState([]);
 
   useEffect(() => {
     carregarEmprestimos();
+    carregarLivros();
+    carregarAlunos();
   }, []);
 
   function carregarEmprestimos() {
@@ -14,9 +18,32 @@ function ListaEmprestimos() {
     });
   }
 
+  function carregarLivros() {
+    axios.get('http://localhost:3005/livro').then((resposta) => {
+      
+      setLivros(resposta.data);
+    });
+  }
+
+  function carregarAlunos() {
+    axios.get('http://localhost:3005/aluno').then((resposta) => {
+      setAlunos(resposta.data);
+    });
+  }
+
   function formatarData(data) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     return new Date(data).toLocaleDateString('pt-BR', options);
+  }
+
+  function obterNomeAluno(idAluno) {
+    const aluno = alunos.find((aluno) => aluno._id === idAluno);
+    return aluno ? aluno.nome : '';
+  }
+
+  function obterTituloLivro(idLivro) {
+    const livro = livros.find((livro) => livro._id === idLivro);
+    return livro ? livro.titulo : '';
   }
 
   return (
@@ -34,8 +61,8 @@ function ListaEmprestimos() {
         <tbody>
           {emprestimos.map((emprestimo) => (
             <tr key={emprestimo._id}>
-              <td>{emprestimo.id_aluno && emprestimo.id_aluno.nome}</td>
-              <td>{emprestimo.id_livro && emprestimo.id_livro.titulo}</td>
+              <td>{obterNomeAluno(emprestimo.id_aluno)}</td>
+              <td>{obterTituloLivro(emprestimo.id_livro)}</td>
               <td>{formatarData(emprestimo.dataDevolucao)}</td>
               <td>{emprestimo.status_emprestimo}</td>
             </tr>

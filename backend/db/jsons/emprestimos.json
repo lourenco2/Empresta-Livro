@@ -5,16 +5,16 @@
     "codigolivro": 1234,
     "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
     "dataDevolucao": "2023-06-27T08:00:00.000Z",
-    "status_emprestimo": "pendente"
+    "status_emprestimo": "devolvido"
   },
   {
     "_id": 2,
     "id_aluno": 9,
     "id_livro": 9,
     "codigolivro": 5678,
-    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
-    "dataDevolucao": "2023-06-27T08:00:00.000Z",
-    "status_emprestimo": "pendente"
+    "comprovanteEmissao": "2023-05-23T08:00:00.000Z",
+    "dataDevolucao": "2023-06-09T08:00:00.000Z",
+    "status_emprestimo": "atrasado"
   },
   {
     "_id": 3,
@@ -41,7 +41,7 @@
     "codigolivro": 6789,
     "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
     "dataDevolucao": "2023-06-27T08:00:00.000Z",
-    "status_emprestimo": "pendente"
+    "status_emprestimo": "devolvido"
   },
   {
     "_id": 6,
@@ -66,9 +66,9 @@
     "id_aluno": 3,
     "id_livro": 3,
     "codigolivro": 7890,
-    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
-    "dataDevolucao": "2023-06-27T08:00:00.000Z",
-    "status_emprestimo": "pendente"
+    "comprovanteEmissao": "2023-04-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-02T08:00:00.000Z",
+    "status_emprestimo": "atrasado"
   },
   {
     "_id": 9,

@@ -6,16 +6,16 @@ var date = new Date()
 
 const EmprestimoSchema = new mongoose.Schema({
     _id: {type: Number, required: true, default: -1},
-    id_aluno: [{
+    id_aluno: {
         type: Number,
         ref: 'aluno',
         required: true
-      }],
-      id_livro: [{
+      },
+      id_livro: {
         type: Number,
         ref: 'livro',
         required: true
-      }],
+      },
     codigolivro: {
         type: Number,
         required: [false, "Informe o código do livro!"]

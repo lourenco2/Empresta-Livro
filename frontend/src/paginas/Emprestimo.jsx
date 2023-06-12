@@ -24,7 +24,13 @@ function Emprestimo () {
   
     function carregarLivros() {
       axios.get('http://localhost:3005/livro').then((resposta) => {
-        setLivros(resposta.data);
+        const livrosComQuantidade = resposta.data.filter((livro) => livro.quantidade > 0);
+        const livrosAtualizados = livrosComQuantidade.map((livro) => ({
+          ...livro,
+          quantidade: livro.quantidade > 0 ? livro.quantidade : 0
+        }));
+    
+        setLivros(livrosAtualizados);
       });
     }
   
