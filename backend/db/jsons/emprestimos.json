@@ -1,0 +1,102 @@
+[{
+    "_id": 1,
+    "id_aluno": 10,
+    "id_livro": 10,
+    "codigolivro": 1234,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 2,
+    "id_aluno": 9,
+    "id_livro": 9,
+    "codigolivro": 5678,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 3,
+    "id_aluno": 8,
+    "id_livro": 8,
+    "codigolivro": 9012,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 4,
+    "id_aluno": 7,
+    "id_livro": 7,
+    "codigolivro": 3456,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 5,
+    "id_aluno": 6,
+    "id_livro": 6,
+    "codigolivro": 6789,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 6,
+    "id_aluno": 5,
+    "id_livro": 5,
+    "codigolivro": 2345,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 7,
+    "id_aluno": 4,
+    "id_livro": 4,
+    "codigolivro": 4567,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 8,
+    "id_aluno": 3,
+    "id_livro": 3,
+    "codigolivro": 7890,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 9,
+    "id_aluno": 2,
+    "id_livro": 2,
+    "codigolivro": 1234,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  },
+  {
+    "_id": 10,
+    "id_aluno": 1,
+    "id_livro": 1,
+    "codigolivro": 5678,
+    "comprovanteEmissao": "2023-06-12T08:00:00.000Z",
+    "dataDevolucao": "2023-06-27T08:00:00.000Z",
+    "status_emprestimo": "pendente"
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+]

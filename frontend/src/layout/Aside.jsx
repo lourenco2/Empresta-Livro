@@ -8,13 +8,13 @@ function Aside() {
           <NavLink to="/cadastros">Áreas</NavLink>
         </li>
         <li>
-          <NavLink to="/atitudes">Atitudes</NavLink>
+          <NavLink to="/livro">Livros</NavLink>
         </li>
         <li>
-          <a>Atividades</a>
+        <NavLink to="/aluno">Alunos</NavLink>
         </li>
         <li>
-          <a>Aulas</a>
+        <NavLink to="/categoria">Categoria</NavLink>
         </li>
         <li>
           <a>Bibliografias</a>

@@ -1,0 +1,119 @@
+[
+    {
+      "_id": 1,
+      "titulo": "O Senhor dos Anéis",
+      "categoria": "Fantasia",
+      "dataCriacao": "2023-06-11T12:34:56.789Z",
+      "sinopse": "Uma grande aventura na Terra Média.",
+      "autor": "J.R.R. Tolkien",
+      "quantidade": 5
+    },
+    {
+      "_id": 2,
+      "titulo": "1984",
+      "categoria": "Ficção Científica",
+      "dataCriacao": "2023-06-11T12:34:56.789Z",
+      "sinopse": "Uma distopia sombria e assustadora.",
+      "autor": "George Orwell",
+      "quantidade": 3
+    },
+    {
+      "_id": 3,
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "categoria": "Fantasia",
+      "dataCriacao": "2023-06-11T12:34:56.789Z",
+      "sinopse": "A história do famoso bruxo Harry Potter.",
+      "autor": "J.K. Rowling",
+      "quantidade": 7
+    },
+    {
+      "_id": 4,
+      "titulo": "Dom Quixote",
+      "categoria": "Clássico",
+      "dataCriacao": "2023-06-11T12:34:56.789Z",
+      "sinopse": "As aventuras do cavaleiro andante Dom Quixote.",
+      "autor": "Miguel de Cervantes",
+      "quantidade": 2
+    },
+    {
+      "_id": 5,
+      "titulo": "A Revolução dos Bichos",
+      "categoria": "Fábula",
+      "dataCriacao": "2023-06-11T12:34:56.789Z",
+      "sinopse": "Os animais de uma fazenda se rebelam contra os humanos.",
+      "autor": "George Orwell",
+      "quantidade": 4
+    },
+    {
+      "_id": 6,
+      "titulo": "A Culpa é das Estrelas",
+      "categoria": "Romance",
+      "dataCriacao": "2023-06-11T12:34:56.789Z",
+      "sinopse": "Uma história emocionante sobre dois jovens com câncer.",
+      "autor": "John Green",
+      "quantidade": 6
+    },
+    {
+      "_id": 7,
+      "titulo": "A Metamorfose",
+      "categoria": "Clássico",
+      "dataCriacao": "2023-06-11T12:34:56.789Z",
+      "sinopse": "A história de Gregor Samsa, que se transforma em um inseto.",
+      "autor": "Franz Kafka",
+      "quantidade": 1
+    },
+    {
+        "_id": 8,
+        "titulo": "O Pequeno Príncipe",
+        "categoria": "Infantil",
+        "dataCriacao": "2023-06-11T12:34:56.789Z",
+        "sinopse": "Um clássico da literatura infantil sobre amizade e amor.",
+        "autor": "Antoine de Saint-Exupéry",
+        "quantidade": 2
+      },
+      {
+        "_id": 9,
+        "titulo": "A Revolta de Atlas",
+        "categoria": "Ficção",
+        "dataCriacao": "2023-06-11T12:34:56.789Z",
+        "sinopse": "Uma história distópica sobre a luta pela liberdade.",
+        "autor": "Ayn Rand",
+        "quantidade": 3
+      },
+      {
+        "_id": 10,
+        "titulo": "Orgulho e Preconceito",
+        "categoria": "Romance",
+        "dataCriacao": "2023-06-11T12:34:56.789Z",
+        "sinopse": "Uma comédia romântica clássica ambientada na Inglaterra do século XIX.",
+        "autor": "Jane Austen",
+        "quantidade": 5
+      },
+      {
+        "_id": 11,
+        "titulo": "O Retrato de Dorian Gray",
+        "categoria": "Clássico",
+        "dataCriacao": "2023-06-11T12:34:56.789Z",
+        "sinopse": "A história de um homem que busca a eterna juventude.",
+        "autor": "Oscar Wilde",
+        "quantidade": 4
+      },
+      {
+        "_id": 12,
+        "titulo": "As Crônicas de Nárnia",
+        "categoria": "Fantasia",
+        "dataCriacao": "2023-06-11T12:34:56.789Z",
+        "sinopse": "Uma série de aventuras em um mundo mágico.",
+        "autor": "C.S. Lewis",
+        "quantidade": 6
+      },
+      {
+        "_id": 13,
+        "titulo": "O Apanhador no Campo de Centeio",
+        "categoria": "Romance",
+        "dataCriacao": "2023-06-11T12:34:56.789Z",
+        "sinopse": "A história de um adolescente em busca de identidade.",
+        "autor": "J.D. Salinger",
+        "quantidade": 2
+      }
+    ]

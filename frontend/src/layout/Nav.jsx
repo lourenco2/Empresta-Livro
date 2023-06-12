@@ -6,9 +6,9 @@ return (
     <ul>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/cadastros">Cadastros</NavLink></li>
-        <li><NavLink to="/montagem">Montagem</NavLink></li>
-        <li><NavLink to="/util">Útil</NavLink></li>
-        <li><NavLink to="/sobre">Sobre</NavLink></li>
+        <li><NavLink to="/aluno">Aluno</NavLink></li>
+        <li><NavLink to="/emprestimo">Fazer Emprestimo</NavLink></li>
+        <li><NavLink to="/historico">Historico</NavLink></li>
     </ul>
     </nav>
   );

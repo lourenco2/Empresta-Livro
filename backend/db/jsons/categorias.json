@@ -1,0 +1,123 @@
+[
+    {
+      "_id": 1,
+      "categoria": "Ficção Científica"
+    },
+    {
+      "_id": 2,
+      "categoria": "Romance"
+    },
+    {
+      "_id": 3,
+      "categoria": "Fantasia"
+    },
+    {
+      "_id": 4,
+      "categoria": "Suspense"
+    },
+    {
+      "_id": 5,
+      "categoria": "Aventura"
+    },
+    {
+      "_id": 6,
+      "categoria": "História"
+    },
+    {
+      "_id": 7,
+      "categoria": "Mistério"
+    },
+    {
+      "_id": 8,
+      "categoria": "Autoajuda"
+    },
+    {
+      "_id": 9,
+      "categoria": "Biografia"
+    },
+    {
+      "_id": 10,
+      "categoria": "Contos"
+    },
+    {
+      "_id": 11,
+      "categoria": "Drama"
+    },
+    {
+      "_id": 12,
+      "categoria": "Espiritualidade"
+    },
+    {
+      "_id": 13,
+      "categoria": "Poesia"
+    },
+    {
+      "_id": 14,
+      "categoria": "Policial"
+    },
+    {
+      "_id": 15,
+      "categoria": "Humor"
+    },
+    {
+      "_id": 16,
+      "categoria": "Filosofia"
+    },
+    {
+      "_id": 17,
+      "categoria": "Culinária"
+    },
+    {
+      "_id": 18,
+      "categoria": "História em Quadrinhos"
+    },
+    {
+      "_id": 19,
+      "categoria": "Terror"
+    },
+    {
+      "_id": 20,
+      "categoria": "Mitologia"
+    },
+    {
+      "_id": 21,
+      "categoria": "Psicologia"
+    },
+    {
+      "_id": 22,
+      "categoria": "Autores Clássicos"
+    },
+    {
+      "_id": 23,
+      "categoria": "Ensaios"
+    },
+    {
+      "_id": 24,
+      "categoria": "Ficção Histórica"
+    },
+    {
+      "_id": 25,
+      "categoria": "Artes"
+    },
+    {
+      "_id": 26,
+      "categoria": "Economia"
+    },
+    {
+      "_id": 27,
+      "categoria": "Ciências"
+    },
+    {
+      "_id": 28,
+      "categoria": "Romance Policial"
+    },
+    {
+      "_id": 29,
+      "categoria": "Medicina"
+    },
+    {
+      "_id": 30,
+      "categoria": "Literatura Estrangeira"
+    }
+  ]
+  

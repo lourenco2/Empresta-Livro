@@ -1,0 +1,65 @@
+[
+  {
+    "_id": 1, 
+    "descricao": "Análise de Sistemas",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 2, 
+    "descricao": "Arquitetura de Sistemas",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 3, 
+    "descricao": "Análise de Infraestrutura",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 4, 
+    "descricao": "Análise de Qualidade de Software",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 5, 
+    "descricao": "Administração de Bases de Dados",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 6, 
+    "descricao": "Engenharia de Software",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 7, 
+    "descricao": "Desenvolvimento de Software",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 8, 
+    "descricao": "Gerência de Projetos de Software",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  },
+  {
+    "_id": 9, 
+    "descricao": "Redes e Segurança da Informação",
+    "areas":  [2,3],
+    "cursos": [1,3,4],
+    "disciplinas":  []
+  }
+]
