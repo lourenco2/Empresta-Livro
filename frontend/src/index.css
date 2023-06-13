@@ -6,8 +6,8 @@ ul,
 html,
 body,
 #root {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
 }
 
 body {
@@ -23,13 +23,12 @@ header {
 
 nav {
   grid-area: nav;
-  background-color: #b8ddfb;
+  background-color: #ffffff;
 }
 
 main {
   grid-area: main;
-  background-color: #f8f8d5;
-  min-width: 80vh;
+  min-width: 10vh;
 }
 
 footer {
@@ -38,7 +37,7 @@ footer {
 
 #root {
   min-height: 100vh;
-  font-family: "Roboto";
+  font-family: "Arial";
   box-sizing: border-box;
   background-color: white;
   border-left: #e1e1e1 1px solid;
@@ -54,8 +53,7 @@ footer {
 }
 
 #root > * {
-  margin: 2px;
-  background-color: #ffec99;
+  margin: 5px;
 }
 
 #root > main > div > div {
@@ -65,6 +63,8 @@ footer {
 
 ul {
   display: flex;
+  justify-content: center;
+
 }
 
 ul li {
@@ -83,17 +83,17 @@ ul li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
+
   text-decoration: none;
 }
 
 #root > nav > ul li a:hover {
-  color: #2a95f3;
+  color: #ff0000;
 }
 
 #root > nav > ul li a.active {
-  color: #967734;
-  font-weight: 600;
+  color: rgb(0, 0, 0);
 }
 
 #root > main > div.principal {
@@ -114,12 +114,12 @@ ul li a {
   }
 }
 
-@media (min-width: 1500px) {
+/*@media (min-width: 1500px) {
   body {
     margin-left: 10%;
     margin-right: 10%;
   }
-}
+}*/
 
 @media (min-width: 3000px) {
   body {

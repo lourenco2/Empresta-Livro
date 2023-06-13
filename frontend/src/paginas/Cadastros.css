@@ -13,13 +13,22 @@
 #root > main > div > div > h3 {
   padding: 0 3px;
 }
-
-#root > main > div > div > button {
-  width: 135px;
-  padding: 5px;
+#botaoCadastro
+{
+    width:1250;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: #5da243;
+}
+#root > main > div > div 
+{
+  width: 100px;
+  padding: 10px;
   margin: 10px 0;
   display: inline-block;
 }
+
 
 /* MENU LATERAL */
 main > div > aside {
@@ -29,27 +38,30 @@ main > div > aside {
 main > div > aside > ul {
   display: flex;
   flex-direction: column;
+  padding-top:58px;
 }
 
 main > div > aside > ul > li {
-  width: 150px;
-  background-color: #ede2a9;
-  margin: 1px;
+  
+  width: 300px;
+  background-color: #c2e4ba;
+  margin: 0px;
+  border:1px solid #000000;
 }
 
 main > div > aside > ul > li > a {
-  font-size: 10pt;
+  font-size: 20pt;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 3px;
 }
 
 main > div > aside > ul > li > a:hover {
-  color: #2a95f3;
+  color: #17e710;
 }
 
 main > div > aside > ul > li > a.active {
-  color: #ffffff;
-  background-color: #dec85c;
+  color: #0f0e0e;
+  background-color: #5da243;
 }
 
 /* FORMULÁRIO */
@@ -89,28 +101,35 @@ tbody,
 th,
 td {
   border-collapse: collapse;
-  border: 1px solid #aeaeae;
+  border: 1px solid #000000;
 }
 
 table > tbody > tr > th,
 table > tbody > tr > td {
-  padding: 3px !important;
+  padding: 5px !important;
 }
 
 table > tbody > tr > th:nth-child(1),
 table > tbody > tr > td:nth-child(1) {
   text-align: center;
+  
 }
 
 table > tbody > tr > th:nth-child(3),
 table > tbody > tr > td:nth-child(3) {
   text-align: center;
-  width: 230px;
+  width: 300px;
+  
 }
 
 table > tbody > tr > td > button {
-  width: 100px;
+  width: 50px;
   display: inline-block;
-  padding: 3px;
-  margin-right: 5px;
+  padding: 5px;
 }
+#cadastro
+{
+  margin: auto;
+}
+
+

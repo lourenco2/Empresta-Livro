@@ -152,13 +152,13 @@ function Cadastros() {
     if (area == null) {
       return (
         <>
-          <button
+          <button id="botaoCadastro"
             type="button"
             onClick={() => {
               novaArea();
             }}
           >
-            Nova área
+            Cadastrar Área
           </button>
           {getTabela()}
         </>
@@ -171,10 +171,6 @@ function Cadastros() {
   return (
     <div className="cadastros">
       <Aside />
-      <div className="conteudo">
-        <h2>Cadastro de áreas</h2>
-        {getConteudo()}
-      </div>
     </div>
   );
 }

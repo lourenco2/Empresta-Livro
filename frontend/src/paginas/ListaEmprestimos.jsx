@@ -49,7 +49,7 @@ function ListaEmprestimos() {
   return (
     <div>
       <h2>Lista de Empréstimos</h2>
-      <table>
+      <table id='cadastro'>
         <thead>
           <tr>
             <th>Aluno</th>
