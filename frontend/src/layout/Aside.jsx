@@ -13,13 +13,6 @@ function Aside() {
         <li>
         <NavLink to="/categoria">Categoria</NavLink>
         </li>
-       
-        <li>
-          <NavLink to="/cadastros">Áreas</NavLink>
-        </li>
-        <li>
-          <NavLink to="/linhas">Linhas</NavLink>
-        </li>
       </ul>
     </aside>
   );

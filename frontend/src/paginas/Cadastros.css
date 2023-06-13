@@ -2,16 +2,19 @@
 #root > main > div.cadastros {
   display: flex;
   margin: 20px 50px 20px 20px;
+  
 }
 
 #root > main > div > div.conteudo {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  
 }
 
 #root > main > div > div > h3 {
   padding: 0 3px;
+
 }
 #botaoCadastro
 {
@@ -25,7 +28,8 @@
 {
   width: 100px;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px 10;
+  
   display: inline-block;
 }
 
@@ -33,12 +37,14 @@
 /* MENU LATERAL */
 main > div > aside {
   margin-right: 30px;
+  
 }
 
 main > div > aside > ul {
   display: flex;
   flex-direction: column;
   padding-top:58px;
+  
 }
 
 main > div > aside > ul > li {
@@ -47,12 +53,14 @@ main > div > aside > ul > li {
   background-color: #c2e4ba;
   margin: 0px;
   border:1px solid #000000;
+  
 }
 
 main > div > aside > ul > li > a {
-  font-size: 20pt;
+  font-size: 25pt;
   text-align: left;
   padding-left: 3px;
+  
 }
 
 main > div > aside > ul > li > a:hover {
@@ -62,6 +70,7 @@ main > div > aside > ul > li > a:hover {
 main > div > aside > ul > li > a.active {
   color: #0f0e0e;
   background-color: #5da243;
+  
 }
 
 /* FORMULÁRIO */
@@ -70,11 +79,13 @@ form > * {
   width: 70%;
   box-sizing: border-box;
   margin-top: 5px;
+  
 }
 
 form > input,
 form > button {
   padding: 5px;
+  
 }
 
 label,
@@ -86,13 +97,14 @@ form > button {
   width: 100px;
   margin: 20px 10px 20px 0;
   display: inline-block;
+  
 }
 
 main > div > button {
   width: 100px;
   margin: 10px 0 20px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 5px;
 }
 
 /* TABELA */
@@ -102,6 +114,7 @@ th,
 td {
   border-collapse: collapse;
   border: 1px solid #000000;
+  
 }
 
 table > tbody > tr > th,
@@ -126,10 +139,21 @@ table > tbody > tr > td > button {
   width: 50px;
   display: inline-block;
   padding: 5px;
+  margin: center;
 }
 #cadastro
 {
   margin: auto;
 }
-
+#margemBotao
+{
+  margin-left:10px;
+  width:40%;
+}
+#CadLivro
+{
+  font-size: 50px;
+  text-align: center;
+  color:#068fff;
+}
 

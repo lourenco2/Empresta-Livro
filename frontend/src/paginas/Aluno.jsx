@@ -157,7 +157,7 @@ function Aluno() {
     if (aluno === null) {
       return (
         <>
-          <button type="button" onClick={novoAluno}>
+          <button type="button" id="botaoCadastro" onClick={novoAluno}>
             Novo Aluno
           </button>
           {getTabela()}
