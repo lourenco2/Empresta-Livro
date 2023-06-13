@@ -178,7 +178,7 @@ function Livro() {
 
   function getTabela() {
     return (
-      <table>
+      <table id="TamanhoTabelaGeral">
         <tbody>
           <tr>
             <th>Titulo</th>
@@ -186,7 +186,7 @@ function Livro() {
             <th>Sinopse</th>
             <th>Autor</th>
             <th>Quantidade</th>
-            <th>Ações</th>
+            <th id="TamanhoTabelaAcao">Ações</th>
           </tr>
           {getLinhasDaTabela()}
         </tbody>

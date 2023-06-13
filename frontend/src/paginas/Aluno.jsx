@@ -67,7 +67,7 @@ function Aluno() {
         <td>{aluno.endereco}</td>
         <td>
           <button
-            type="button"
+            type="button" id="margemBotaoAluno"
             onClick={() => {
               if (
                 window.confirm('Confirmar a exclusão do aluno ' + aluno.nome + '?')
@@ -79,7 +79,7 @@ function Aluno() {
             Excluir
           </button>
           <button
-            type="button"
+            type="button"id="margemBotaoAluno"
             onClick={() => {
               setAluno(aluno);
             }}
@@ -104,7 +104,7 @@ function Aluno() {
             <th>Documento</th>
             <th>Telefone</th>
             <th>Endereço</th>
-            <th>Ações</th>
+            <th id="TamanhoTabelaAcao">Ações</th>
           </tr>
           {getLinhasDaTabela()}
         </tbody>
@@ -172,7 +172,7 @@ function Aluno() {
     <div className="cadastros">
       <Aside />
       <div className="conteudo">
-        <h2>Cadastro de Alunos</h2>
+        <h2 id="CadLivro">Cadastro de Alunos</h2>
         {getConteudo()}
       </div>
     </div>

@@ -83,29 +83,29 @@ function Emprestimo () {
   
     return (
       <div>
-        <h2>Empréstimo de Livro</h2>
+        <h2 id="CadLivro">Empréstimo de Livro</h2>
         <form>
-          <label>Aluno:</label>
-          <select value={selectedAluno ? selectedAluno.nome : ''} onChange={handleAlunoChange}>
-            <option value="">Selecione um aluno</option>
+          <label id="cadCategoria">Aluno:</label>
+          <select id="BotaoEmprestimo" value={selectedAluno ? selectedAluno.nome : ''} onChange={handleAlunoChange}>
+            <option value="" id="ListaEmprestimo">Selecione um aluno</option>
             {alunos.map((aluno) => (
-              <option key={aluno._id} value={aluno.nome}>
+              <option id="ListaEmprestimo" key={aluno._id} value={aluno.nome}>
                 {aluno.nome}
               </option>
             ))}
           </select>
   
-          <label>Livro:</label>
-          <select value={selectedLivro ? selectedLivro.titulo : ''} onChange={handleLivroChange}>
-            <option value="">Selecione um livro</option>
+          <label id="cadCategoria">Livro:</label>
+          <select id="BotaoEmprestimo" value={selectedLivro ? selectedLivro.titulo : ''} onChange={handleLivroChange}>
+            <option value="" id="ListaEmprestimo">Selecione um livro</option>
             {livros.map((livro) => (
-              <option key={livro._id} value={livro.titulo}>
+              <option id="ListaEmprestimo" key={livro._id} value={livro.titulo}>
                 {livro.titulo}
               </option>
             ))}
           </select>
   
-          <button type="button" onClick={cadastrarEmprestimo}>
+          <button type="button" id="BotaoEmprestimoRealizado" onClick={cadastrarEmprestimo}>
             Realizar Empréstimo
           </button>
         </form>

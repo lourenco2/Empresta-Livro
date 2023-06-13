@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Aside from '../layout/Aside';
+import "./Cadastros.css";
 
 function Categoria() {
   const [categoria, setCategoria] = useState('');
@@ -45,16 +46,16 @@ function Categoria() {
     <div className="cadastros">
       <Aside />
       <div className='conteudo'>
-      <h2>Cadastro de Categoria</h2>
+      <h2 id='cadCategoria'>Cadastro de Categoria</h2>
       <form>
-        <label>Nome da Categoria:</label>
+        <label id='NomeCategoria'>Nome da Categoria:</label>
         <input
           type="text"
           value={categoria}
           onChange={(e) => setCategoria(e.target.value)}
         />
-        <button type="submit" onClick={cadastrarCategoria}>
-          Cadastrar
+        <button type="submit" id='BotaoCadCategoria' onClick={cadastrarCategoria}>
+          +
         </button>
       </form>
       </div>

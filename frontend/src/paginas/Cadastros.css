@@ -16,14 +16,7 @@
   padding: 0 3px;
 
 }
-#botaoCadastro
-{
-    width:1250;
-    padding: 10px;
-    margin: 10px 0;
-    display: inline-block;
-    background-color: #5da243;
-}
+
 #root > main > div > div 
 {
   width: 100px;
@@ -120,6 +113,7 @@ td {
 table > tbody > tr > th,
 table > tbody > tr > td {
   padding: 5px !important;
+  text-align: center;
 }
 
 table > tbody > tr > th:nth-child(1),
@@ -140,6 +134,7 @@ table > tbody > tr > td > button {
   display: inline-block;
   padding: 5px;
   margin: center;
+  
 }
 #cadastro
 {
@@ -154,6 +149,82 @@ table > tbody > tr > td > button {
 {
   font-size: 50px;
   text-align: center;
-  color:#9fd4ff;
+  color:#afff9f;
+}
+#botaoCadastro
+{
+    width:1250;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: #5da243;
+}
+#botaoCadastro:hover
+{
+    width:1250;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: #17e710;
+    
+    transition:2;
 }
 
+#margemBotaoAluno
+{
+  margin-left:5px;
+  width:40%;
+}
+#TamanhoTabelaAcao
+{
+  text-align: center;
+  width: 200px;
+}
+#BotaoCadCategoria
+{
+  margin-top: 100px;
+  width:200px;
+  height: 300px;
+  cursor:pointer;
+  border:0px;
+  text-align: center;
+  font-size: 250px;
+  color:green;
+  position: absolute;
+  left: 50%;
+  top: 59%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+#NomeCategoria
+{
+  font-size: 30px;
+}
+#cadCategoria
+{
+  font-size: 50px;
+  margin-left:250px;
+  color:#afff9f;
+}
+#ListaEmprestimo
+{
+  font-size:17px;
+  text-align: center;
+}
+#BotaoEmprestimo
+{
+  font-size:20px;
+  margin-left:15%;
+}
+#BotaoEmprestimoRealizado
+{
+  font-size: 30px;
+  width:200px;
+  border-radius: 7px;
+  cursor:pointer;
+  background-color:#afff9f;
+}
+#BotaoEmprestimoRealizado:hover
+{
+  background-color: rgb(152, 247, 247);
+}
