@@ -1,9 +1,7 @@
-
-
 function Header(){
     return (
-      <header>
-        <h1>Biblioteca</h1>
+      <header id="header">
+        <h2>Biblioteca</h2>
       </header>
     );
 }

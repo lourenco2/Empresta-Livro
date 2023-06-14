@@ -1,8 +1,6 @@
-
-
 function Footer(){
     return (
-        <footer>Rodapé</footer>
+        <footer>Copyright © 2023 Empresta Livro S/A. All rights reserved.</footer>
     );
 }
 

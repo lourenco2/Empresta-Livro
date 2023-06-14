@@ -8,7 +8,7 @@ body,
 #root {
   margin: 10;
   padding: 10;
-  
+
 }
 
 body {
@@ -19,12 +19,27 @@ body {
 
 header {
   grid-area: header;
-  padding: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  background-color: #5da243;
+  text-align: start;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+header h2{
+  font-size: xx-large;
+  color: #ffffff;
 }
 
 nav {
   grid-area: nav;
+  font-size: x-large;
   background-color: #ffffff;
+  border-bottom: 2px solid;
+  border-color: #5da243;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 main {
@@ -34,6 +49,12 @@ main {
 
 footer {
   grid-area: footer;
+  padding: 5px;
+  font-size: large;
+
+  border-top: 1px solid;
+  border-color: dodgerblue;
+  background-size: 10px;
 }
 
 #root {
@@ -47,14 +68,10 @@ footer {
   text-align: center;
   display: grid;
   grid-template:
-    "header header header" minmax(auto, 15vh)
-    "nav nav nav" minmax(auto, 9vh)
+    "header header header" minmax(auto, 7vh)
+    "nav nav nav" minmax(auto, 5vh)
     "main main main"
-    "footer footer footer" minmax(auto, 9vh);
-}
-
-#root > * {
-  margin: 5px;
+    "footer footer footer" minmax(auto, 3vh);
 }
 
 #root > main > div > div {
@@ -77,20 +94,19 @@ ul li a {
   text-align: center;
   text-decoration: none;
   display: block;
-  padding: 3px;
+
 }
 
 #root > nav > ul li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 10px;
-
+  padding: 10px 10px;
   text-decoration: none;
 }
 
 #root > nav > ul li a:hover {
-  color: #ff0000;
+  color: #5da243;
 }
 
 #root > nav > ul li a.active {
@@ -100,6 +116,27 @@ ul li a {
 #root > main > div.principal {
   padding: 50px;
   text-align: center;
+}
+
+#welcome{
+  font-size: 50px;
+  padding-top: 250px;
+  padding-left: 200px;
+  color: #5da243;
+}
+
+#imgInicial{
+  width: 600px;
+}
+
+#principal{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+#homeIcon{
+  width: 35px;
 }
 
 @media (max-width: 500px) {

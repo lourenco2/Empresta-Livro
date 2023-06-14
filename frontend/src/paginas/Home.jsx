@@ -1,8 +1,12 @@
+import imgInicial from './Library-amico.png'
+import {Button} from "antd";
 function Home() {
   return (
-    <div className="principal">
-      <h3>Conteúdo da página home</h3>
+    <div id="principal">
+      <h3 id='welcome'>Bem Vindo</h3>
+        <img id='imgInicial' src={imgInicial} alt="imagem inicial"></img>
     </div>
+
   );
 }
 
