@@ -67,7 +67,7 @@ function Aluno() {
         <td>{aluno.endereco}</td>
         <td>
           <button
-            type="button" id="margemBotaoAluno"
+            type="button" id="margemBotaoAlunoExcluir"
             onClick={() => {
               if (
                 window.confirm('Confirmar a exclusão do aluno ' + aluno.nome + '?')
@@ -79,7 +79,7 @@ function Aluno() {
             Excluir
           </button>
           <button
-            type="button"id="margemBotaoAluno"
+            type="button"id="margemBotaoAlunoEditar"
             onClick={() => {
               setAluno(aluno);
             }}
@@ -158,7 +158,7 @@ function Aluno() {
       return (
         <>
           <button type="button" id="botaoCadastro" onClick={novoAluno}>
-            Novo Aluno
+            Cadastrar Aluno
           </button>
           {getTabela()}
         </>

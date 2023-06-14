@@ -106,7 +106,7 @@ function Emprestimo () {
           </select>
   
           <button type="button" id="BotaoEmprestimoRealizado" onClick={cadastrarEmprestimo}>
-            Realizar Empréstimo
+            +
           </button>
         </form>
       </div>

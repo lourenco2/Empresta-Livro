@@ -141,7 +141,7 @@ function Livro() {
         <td>{livro.quantidade}</td>
         <td>
           <button
-            type="button" id="margemBotao"
+            type="button" id="margemBotaoLivroExcluir"
             onClick={() => {
               if (
                 window.confirm(
@@ -155,7 +155,7 @@ function Livro() {
             Excluir
           </button>
           <button
-            type="button" id="margemBotao"
+            type="button" id="margemBotaoLivroEditar"
             onClick={() => {
               setLivro(livro);
             }}
@@ -205,7 +205,7 @@ function Livro() {
               novoLivro();
             }}
           >
-            Novo Livro
+            Cadastrar Livro
           </button>
           {getTabela()}
         </>

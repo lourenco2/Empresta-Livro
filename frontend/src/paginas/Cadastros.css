@@ -158,6 +158,9 @@ table > tbody > tr > td > button {
     margin: 10px 0;
     display: inline-block;
     background-color: #5da243;
+    color: white;
+    border-radius: 10px;
+    border: none;
 }
 #botaoCadastro:hover
 {
@@ -165,36 +168,77 @@ table > tbody > tr > td > button {
     padding: 10px;
     margin: 10px 0;
     display: inline-block;
-    background-color: #17e710;
+    background-color: #759174;
+    cursor: pointer;
     
-    transition:2;
 }
 
 #margemBotaoAluno
 {
   margin-left:5px;
   width:40%;
+  
+}
+#margemBotaoAlunoEditar{
+  margin-left:5px;
+  width:40%;
+  background-color: rgb(226, 226, 69);
+  border: 1px solid  rgb(179, 177, 177);
+  border-radius: 5px;
+}
+
+#margemBotaoAlunoExcluir{
+  margin-left:5px;
+  width:40%;
+  background-color: rgb(185, 64, 64);
+  color: white;
+  border: 1px solid  rgb(179, 177, 177);
+  border-radius: 5px;
+}
+
+
+#margemBotaoLivroExcluir{
+  margin-left:5px;
+  width:40%;
+  background-color: rgb(185, 64, 64);
+  color: white;
+  border: 1px solid  rgb(179, 177, 177);
+  border-radius: 5px;
+}
+
+
+#margemBotaoLivroEditar{
+  margin-left:5px;
+  width:40%;
+  background-color: rgb(226, 226, 69);
+  border: 1px solid  rgb(179, 177, 177);
+  border-radius: 5px;
 }
 #TamanhoTabelaAcao
 {
   text-align: center;
   width: 200px;
 }
+
+
+
 #BotaoCadCategoria
 {
-  margin-top: 100px;
-  width:200px;
-  height: 300px;
-  cursor:pointer;
-  border:0px;
-  text-align: center;
-  font-size: 250px;
-  color:green;
+  
+  color:rgb(255, 255, 255);
   position: absolute;
   left: 50%;
-  top: 59%;
-  transform: translate(-50%, -50%);
-  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #5da243;
+  border-radius: 10px ;
+  
+  
+}
+
+#BotaoCadCategoria:hover{
+
+  background-color: #8ece7f;
 }
 #NomeCategoria
 {
@@ -202,11 +246,13 @@ table > tbody > tr > td > button {
 }
 #cadCategoria
 {
-  font-size: 50px;
-  margin-left:250px;
+  font-size: 43px;
+  margin-left: 200px;
   color:#5da243;
-  padding-top: 100px;
+  padding-top: 15px;
 }
+
+
 #ListaEmprestimo
 {
   font-size:17px;
@@ -216,14 +262,16 @@ table > tbody > tr > td > button {
 {
   font-size:20px;
   margin-left:15%;
+  border-radius: 10px;
 }
 #BotaoEmprestimoRealizado
 {
-  font-size: 30px;
-  width:200px;
-  border-radius: 7px;
+  font-size: 50px;
+  border-radius: 20px;
+  border-style: none;
   cursor:pointer;
-  background-color:#afff9f;
+  background-color:#5da243;
+  color: white;
 }
 #BotaoEmprestimoRealizado:hover
 {

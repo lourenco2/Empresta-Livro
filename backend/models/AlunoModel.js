@@ -5,19 +5,19 @@ const AlunoSchema = new mongoose.Schema({
     _id: {type: Number, required: true, default: -1},
     nome: {
         type: String,
-        required: [true, "Nome é uma informação obrigatória!"]
+        required: [false, "Nome é uma informação obrigatória!"]
     },
     documento: {
         type: Number,
-        required: [true, "Documento é obrigatório"]
+        required: [false, "Documento é obrigatório"]
     },
     telefone: {
         type: Number,
-        required: [true, "Contato obrigatório!"]
+        required: [false, "Contato obrigatório!"]
     },
     endereco: {
         type: String,
-        required: [true, "Endereço é obrigatório"]
+        required: [false, "Endereço é obrigatório"]
     }   
 });
 

@@ -7,7 +7,7 @@ return (
     <ul>
         <li><NavLink to="/"><img id='homeIcon' src={imgInicial} alt="home"></img></NavLink></li>
         <li><NavLink to="/livro">Cadastros</NavLink></li>
-        <li><NavLink to="/emprestimo">Fazer Emprestimo</NavLink></li>
+        <li><NavLink to="/emprestimo">Emprestimo</NavLink></li>
         <li><NavLink to="/historico">Historico</NavLink></li>
     </ul>
     </nav>

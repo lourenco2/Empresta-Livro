@@ -5,7 +5,7 @@ const LivroSchema = new mongoose.Schema({
     _id: {type: Number, required: true, default: -1},
     titulo: {
         type: String,
-        required: [true, "Titulo é obrigatório!"]
+        required: [false, "Titulo é obrigatório!"]
     },
     categoria:  [{ type: String, ref: 'categoria' }],
     dataCriacao:{
@@ -14,15 +14,15 @@ const LivroSchema = new mongoose.Schema({
     },
     sinopse : {
         type: String,
-        required: [true, "Sinopse é uma informação obrigatória!"]
+        required: [false, "Sinopse é uma informação obrigatória!"]
     },
     autor: {
         type: String,
-        required: [true, "Autor é obrigatório!"]
+        required: [false, "Autor é obrigatório!"]
     },
     quantidade: {
         type: Number,
-        required: [true, "Requisito obrigatório!"]
+        required: [false, "Requisito obrigatório!"]
     }
 });
 
