@@ -27,12 +27,7 @@ const EmprestimoSchema = new mongoose.Schema({
     dataDevolucao: {
         type: Date,
         default: date.setDate(date.getDate() + 15)
-    },
-    status_emprestimo: {
-        type: String,
-        enum: ['pendente', 'devolvido', 'atrasado'],
-        default: 'pendente'
-      }
+    }
 });
 
 EmprestimoSchema.pre('save', async function(next){

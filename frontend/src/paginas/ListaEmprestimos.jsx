@@ -55,7 +55,6 @@ function ListaEmprestimos() {
             <th>Aluno</th>
             <th>Livro</th>
             <th>Data de Devolução</th>
-            <th>Status</th>
           </tr>
         </thead>
         <tbody>
@@ -64,7 +63,6 @@ function ListaEmprestimos() {
               <td>{obterNomeAluno(emprestimo.id_aluno)}</td>
               <td>{obterTituloLivro(emprestimo.id_livro)}</td>
               <td>{formatarData(emprestimo.dataDevolucao)}</td>
-              <td>{emprestimo.status_emprestimo}</td>
             </tr>
           ))}
         </tbody>

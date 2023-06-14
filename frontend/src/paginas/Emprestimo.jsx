@@ -83,9 +83,9 @@ function Emprestimo () {
   
     return (
       <div>
-        <h2 id="CadLivro">Empréstimo de Livro</h2>
+        <h3 id="CadLivro">Empréstimo de Livro</h3>
         <form>
-          <label id="cadCategoria">Aluno:</label>
+          <label id="cadCategoria">Aluno</label>
           <select id="BotaoEmprestimo" value={selectedAluno ? selectedAluno.nome : ''} onChange={handleAlunoChange}>
             <option value="" id="ListaEmprestimo">Selecione um aluno</option>
             {alunos.map((aluno) => (
@@ -95,7 +95,7 @@ function Emprestimo () {
             ))}
           </select>
   
-          <label id="cadCategoria">Livro:</label>
+          <label id="cadCategoria">Livro</label>
           <select id="BotaoEmprestimo" value={selectedLivro ? selectedLivro.titulo : ''} onChange={handleLivroChange}>
             <option value="" id="ListaEmprestimo">Selecione um livro</option>
             {livros.map((livro) => (

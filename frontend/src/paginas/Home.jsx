@@ -1,5 +1,4 @@
 import imgInicial from './Library-amico.png'
-import {Button} from "antd";
 function Home() {
   return (
     <div id="principal">

@@ -146,9 +146,10 @@ table > tbody > tr > td > button {
 }
 #CadLivro
 {
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
-  color:#afff9f;
+  color:#5da243;
+  padding-top: 30px;
 }
 #botaoCadastro
 {
@@ -203,7 +204,8 @@ table > tbody > tr > td > button {
 {
   font-size: 50px;
   margin-left:250px;
-  color:#afff9f;
+  color:#5da243;
+  padding-top: 100px;
 }
 #ListaEmprestimo
 {
@@ -225,5 +227,5 @@ table > tbody > tr > td > button {
 }
 #BotaoEmprestimoRealizado:hover
 {
-  background-color: rgb(152, 247, 247);
+  background-color: #5da243;
 }
