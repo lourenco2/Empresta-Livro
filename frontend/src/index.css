@@ -15,21 +15,24 @@ body {
   margin: 0;
   background-color: #f4f6fa;
   overflow-y: scroll;
+  
 }
 
 header {
   grid-area: header;
-  padding-top: 10px;
+  padding-top: 2px;
   padding-left: 20px;
   background-color: #5da243;
   text-align: start;
-  margin: 5px;
+  margin: 10px;
   border-radius: 20px;
+  padding-bottom: 5%;
 }
 
 header h2{
   font-size: xx-large;
   color: #ffffff;
+  padding-bottom: 7%;
 }
 
 nav {
@@ -40,11 +43,13 @@ nav {
   border-color: #5da243;
   margin-left: 300px;
   margin-right: 300px;
+  padding-bottom: 5.3%;
 }
 
 main {
   grid-area: main;
-  min-width: 10vh;
+  min-width: 1vh;
+  
 }
 
 footer {
@@ -55,6 +60,9 @@ footer {
   border-top: 1px solid;
   border-color: dodgerblue;
   background-size: 10px;
+}
+#rootEmpresta{
+  padding-bottom: 10%;
 }
 
 #root {
@@ -67,6 +75,7 @@ footer {
   font-size: calc(10px + 2vmin);
   text-align: center;
   display: grid;
+  padding-bottom: 5%;
   grid-template:
     "header header header" minmax(auto, 7vh)
     "nav nav nav" minmax(auto, 5vh)
@@ -96,6 +105,7 @@ ul li a {
   display: block;
 
 }
+
 
 #root > nav > ul li a {
   display: block;
