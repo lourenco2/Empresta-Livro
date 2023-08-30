@@ -14,7 +14,7 @@ Este projeto feito em JavaScript é um gerenciador de emprestimos para bibliotec
 - [@TxTGabriel](https://github.com/TxTGabriel)
 - [@AndreiReikdal](https://github.com/AndreiReikdal)
 - [@AlanSprea](https://github.com/Alansprea)
-- [@AlanSprea](https://github.com/Savithar0)
+- [@Savithar0](https://github.com/Savithar0)
 
 
 ## Aprendizados
